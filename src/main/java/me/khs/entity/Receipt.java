@@ -62,9 +62,6 @@ public class Receipt {
                 ", isDeleted " + isDeleted +
                 '}';
 	}
-	
-	/*@OneToMany(mappedBy = "product", fetch = FetchType.LAZY)
-    private List<Product> product;*/
+}
 	
 
-}
