@@ -29,7 +29,7 @@ public class User {
     @Column(nullable = false, length = 255)
     private String password;  // 비밀번호
 
-    @Column(length = 100)
+    @Column(unique = true, nullable = false)
     private String email;  // 이메일
 
     @Column(nullable = false, name = "last_week")

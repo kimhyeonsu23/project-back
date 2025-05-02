@@ -3,7 +3,7 @@ package org.budgetmate;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "org.budgetmate")
 public class BudgetApplication {
 
 	public static void main(String[] args) {
